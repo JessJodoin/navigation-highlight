@@ -1,8 +1,62 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+header h1 {
+  font-family: Sigmar One, sans-serif;
+  color: #b20953;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #ffe500;
+}
+
+footer p {
+  text-align: center;
 }
