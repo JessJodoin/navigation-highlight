@@ -8,10 +8,14 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: #ffe500;
   text-align: center;
-  margin: .3em;
+  margin: 0;
 }
 
 header h1 {
@@ -56,8 +60,26 @@ a:hover {
   background-color: #b20953;
 }
 
+.main-index {
+  display: inline-block;
+  margin: 0;
+}
+.berries {
+  font-family: Sigmar One, sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
+  margin: 0;
+  padding: .75em;
+}
 
+.main-info {
+  margin: 0;
+  padding: 0 .75em .75em;
+}
 
+.main-info b {
+  font-weight: bold;
+}
 
 
 
@@ -65,8 +87,10 @@ a:hover {
 
 footer {
   background-color: #ffe500;
+  padding: .2em .5em .3em;
 }
 
 footer p {
   text-align: center;
+  font-size: .75rem
 }
